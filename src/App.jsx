@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/website/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
