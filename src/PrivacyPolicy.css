@@ -1,0 +1,152 @@
+.privacy-policy {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.home-link {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: white;
+}
+
+.policy-content {
+  flex: 1;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.policy-content h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.last-updated {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.policy-content section {
+  margin-bottom: 2.5rem;
+}
+
+.policy-content h3 {
+  font-size: 1.5rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.policy-content p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.policy-content ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.policy-content li {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.policy-content strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.footer {
+  background: #2d3748;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0 0 0.5rem 0;
+}
+
+.footer nav {
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: #90cdf4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #63b3ed;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .home-link {
+    position: static;
+    display: inline-block;
+    transform: none;
+    margin-bottom: 1rem;
+  }
+
+  .policy-content {
+    padding: 2rem 1rem;
+  }
+
+  .policy-content h2 {
+    font-size: 2rem;
+  }
+
+  .policy-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .policy-content ul {
+    margin-left: 1rem;
+  }
+}
