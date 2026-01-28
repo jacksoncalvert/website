@@ -53,11 +53,20 @@ npm run preview
 
 ## Deployment
 
-The `dist/` folder contains all static files needed for deployment. You can deploy to:
+### GitHub Pages (Automatic)
+
+This site is configured for automatic deployment to GitHub Pages. Every push to the `main` branch will trigger a deployment.
+
+**Live Site**: https://jacksoncalvert.github.io/website/
+
+The deployment is handled by GitHub Actions (see `.github/workflows/deploy.yml`). No manual steps required!
+
+### Manual Deployment Options
+
+The `dist/` folder contains all static files needed for deployment. You can also deploy manually to:
 
 - **Vercel**: `vercel deploy`
 - **Netlify**: Drag and drop the `dist/` folder
-- **GitHub Pages**: Deploy the `dist/` folder to gh-pages branch
 - **Any static hosting**: Upload the contents of `dist/`
 
 ## Project Structure
